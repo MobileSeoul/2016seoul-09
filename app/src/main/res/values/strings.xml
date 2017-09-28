@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">N SeouL\n서울야경명소</string>
+    <string name="location1">안드로이드 새 정책에 따라 6.0(마시멜로우)부터 지도 활용 시 위치 권한을 허용해주셔야 합니다.</string>
+    <string name="location2">안드로이드 새 정책에 따라 6.0(마시멜로우)부터 위치 권한을 허용하지 않으면 지도를 볼 수 없습니다.</string>
+    <string name="map_error">지도 불러오기 오류, Map Error</string>
+    <string name="nal_error">날씨 불러오기 오류, Weather Error</string>
+    <string name="wifi_error">모바일 데이터 또는 와이파이를 연결해주세요.\nMobile data and Wifi are Disconnected</string>
+</resources>

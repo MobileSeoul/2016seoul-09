@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/regionPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.nseoul.RegionActivity">
+    <!--NSeoul 메뉴바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="7.4"
+        android:orientation="horizontal">
+        <!--백버튼-->
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="15"
+            android:background="@drawable/iconbtn2"
+            android:onClick="btnHomeClicked" />
+        <!--여백-->
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="85"/>
+    </LinearLayout>
+    <!--여백-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="12.6" />
+    <!--화면 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="80"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--버튼 레이아웃-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="25"
+            android:layout_gravity="center">
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"/>
+            <!--강동 버튼-->
+            <Button
+                android:id="@+id/btnRegion01"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="44"
+                android:onClick="btnRegion01Clicked" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"/>
+            <!--강서 버튼-->
+            <Button
+                android:id="@+id/btnRegion02"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="44"
+                android:onClick="btnRegion02Clicked" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"/>
+        </LinearLayout>
+        <!--여백 레이아웃-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+        <!--버튼 레이아웃-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="25"
+            android:layout_gravity="center">
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"/>
+            <!--강남 버튼-->
+            <Button
+                android:id="@+id/btnRegion03"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="44"
+                android:onClick="btnRegion03Clicked" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"/>
+            <!--강북 버튼-->
+            <Button
+                android:id="@+id/btnRegion04"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="44"
+                android:onClick="btnRegion04Clicked" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"/>
+        </LinearLayout>
+        <!--여백 레이아웃-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="29"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>

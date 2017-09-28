@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gyeongbokgungnalPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.nseoul.InGyeongbokgungnal">
+    <!--NSeoul 메뉴바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        >
+        <!--백버튼-->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="15"
+            android:background="@drawable/iconback3"
+            android:onClick="btnBackClicked" />
+        <!--여백-->
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="75">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text=" 경복궁(Gyeongbokgung)"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtType"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:textColor="#0F0329" />
+    </LinearLayout>
+    <!--화면 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="94"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--여백-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="3" />
+        <!--웹뷰-->
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/webview"
+            android:layout_weight="94" />
+        <!--여백-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="3" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#212121"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="7.5"
+            android:background="#212121" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="92.5"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/btnSlide01"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#4c4c4e"
+                android:gravity="left|center"
+                android:text="     서울 전경\n     Scenery of Seoul"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:typeface="serif"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.2" />
+            <Button
+                android:id="@+id/btnSlide02"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#4c4c4e"
+                android:gravity="left|center"
+                android:text="     대표적 명소\n     Typical Places"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:typeface="serif" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.2" />
+            <Button
+                android:id="@+id/btnSlide03"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#4c4c4e"
+                android:gravity="left|center"
+                android:text="     숨겨진 명소\n     Hidden Places"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:typeface="serif" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.2" />
+            <Button
+                android:id="@+id/btnSlide04"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#4c4c4e"
+                android:gravity="left|center"
+                android:text="     아름다운 고궁\n     Beautiful Palace"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:typeface="serif" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.2" />
+            <Button
+                android:id="@+id/btnSlide05"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#4c4c4e"
+                android:gravity="left|center"
+                android:text="     지역별 메뉴\n     Regional Menu"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:typeface="serif" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.2" />
+            <Button
+                android:id="@+id/btnSlide06"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="10"
+                android:background="#4c4c4e"
+                android:gravity="left|center"
+                android:text="     서울시티투어버스\n     Seoul City Tour Bus                    "
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:typeface="serif" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.2" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="4"
+                android:gravity="right|bottom"
+                android:text="N SeouL 서울야경명소 - ver 1.0     "
+                android:textColor="#AAAAAA"
+                android:textSize="10sp"
+                android:typeface="serif" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:text="In.Q Project     "
+                android:textColor="#AAAAAA"
+                android:textSize="10sp"
+                android:typeface="serif" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="30.8" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

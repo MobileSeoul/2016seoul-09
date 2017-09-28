@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gwangnarumapPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.nseoul.InGwangnarumap">
+    <!--NSeoul 메뉴바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        >
+        <!--백버튼-->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="15"
+            android:background="@drawable/iconback3"
+            android:onClick="btnBackClicked" />
+        <!--여백-->
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="75">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text=" 광나루한강공원(Gwangnaru Hangang Park)"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtType"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:textColor="#0F0329" />
+    </LinearLayout>
+    <!--지도 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="87"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--지도-->
+        <LinearLayout
+            android:id="@+id/map_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="87" />
+    </LinearLayout>
+    <!--거리시간 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!--거리시간-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="▶ 도보(Walking) - 약 1.3km, 20분(min)"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="#B4AE9E"/>
+    </LinearLayout>
+</LinearLayout>

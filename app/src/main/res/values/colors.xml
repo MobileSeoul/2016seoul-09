@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pressed1">#edecea</color>
+    <color name="pressed2">#edecea</color>
+
+    <color name="focused1">#eadbc7</color>
+    <color name="focused2">#eadbc7</color>
+
+    <color name="default1">#b4ae9e</color>
+    <color name="default2">#b4ae9e</color>
+
+    <color name="stroke">#00000000</color>
+</resources>

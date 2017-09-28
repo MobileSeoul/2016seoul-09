@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/citytour1Page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.nseoul.Citytour1">
+    <!--NSeoul 메뉴바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="7.4"
+        android:orientation="horizontal"
+        >
+        <!--백버튼-->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="15"
+            android:background="@drawable/iconbtn2"
+            android:onClick="btnBackClicked" />
+        <!--여백-->
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="85"/>
+    </LinearLayout>
+    <!--화면 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="92.6"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--메뉴 버튼 레이아웃-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnmenu1"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/btnmenu2"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="btnmenu2Clicked" />
+            <Button
+                android:id="@+id/btnmenu3"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="btnmenu3Clicked" />
+        </LinearLayout>
+        <!--노선도 이미지뷰 레이아웃-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="35"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="0px"
+                android:layout_weight="94"
+                android:layout_height="fill_parent" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:typeface="sans"
+                android:text="노란 글씨에서만 버스가 정차합니다.\nOnly Stop at Yellow Text."
+                android:textSize="12dp" />
+        </LinearLayout>
+        <!--소개 버튼 레이아웃-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="42.5"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="42.5"
+                android:gravity="center"
+                android:orientation="vertical">
+                <!--여백 레이아웃-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <!--소개 버튼 레이아웃1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                    <!--버튼-->
+                    <Button
+                        android:id="@+id/btn1"
+                        android:background="@drawable/button5"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:text="\n광화문 광장\nGwanghwamun\n"
+                        android:textColor="#ffc000"
+                        android:textStyle="bold"
+                        android:onClick="btn1Clicked"
+                        android:typeface="sans" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+                    <!--버튼-->
+                    <Button
+                        android:id="@+id/btn2"
+                        android:background="@drawable/button5"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:text="\n여의도한강공원\nYeoui Hangang\n"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:onClick="btn2Clicked"
+                        android:typeface="sans" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                <!--여백 레이아웃-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <!--소개 버튼 레이아웃2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                    <!--버튼-->
+                    <Button
+                        android:id="@+id/btn3"
+                        android:background="@drawable/button5"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:text="\n이촌한강공원\nYeechon Hangang\n"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:onClick="btn3Clicked"
+                        android:typeface="sans" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+                    <!--버튼-->
+                    <Button
+                        android:id="@+id/btn4"
+                        android:background="@drawable/button5"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:text="\n남산\nNamsan Mountain\n"
+                        android:textColor="#ffc000"
+                        android:textStyle="bold"
+                        android:onClick="btn4Clicked"
+                        android:typeface="sans" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                <!--여백 레이아웃-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <!--소개 버튼 레이아웃3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                    <!--버튼-->
+                    <Button
+                        android:id="@+id/btn5"
+                        android:background="@drawable/button5"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:text="\n숭례문\nSungnyemun\n"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:onClick="btn5Clicked"
+                        android:typeface="sans" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+                    <!--버튼-->
+                    <Button
+                        android:id="@+id/btn6"
+                        android:background="@drawable/button5"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:text="\n청계천\nCheonggyecheon\n"
+                        android:textColor="#ffc000"
+                        android:textStyle="bold"
+                        android:onClick="btn6Clicked"
+                        android:typeface="sans" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                <!--여백 레이아웃-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

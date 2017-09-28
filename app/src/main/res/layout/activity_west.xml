@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/westPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.nseoul.MenuwestActivity">
+    <!--NSeoul 메뉴바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="7.4"
+        android:orientation="horizontal"
+        >
+        <!--백버튼-->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="15"
+            android:background="@drawable/iconbtn2"
+            android:onClick="btnBackClicked" />
+        <!--여백-->
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="85"/>
+    </LinearLayout>
+    <!--화면 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="92.6"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--메뉴 버튼 레이아웃-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!--여백-->
+            <Button
+                android:id="@+id/btnmenu1"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="25"
+                android:onClick="btnmenu1Clicked" />
+            <Button
+                android:id="@+id/btnmenu2"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="25" />
+            <Button
+                android:id="@+id/btnmenu3"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="25"
+                android:onClick="btnmenu3Clicked" />
+            <Button
+                android:id="@+id/btnmenu4"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="25"
+                android:onClick="btnmenu4Clicked" />
+        </LinearLayout>
+        <!--소개 버튼 레이아웃-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="85.5"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="85.5"
+                android:gravity="center"
+                android:orientation="vertical">
+                <!--여백 레이아웃-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <!--소개 버튼 레이아웃1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                    <!--버튼-->
+                    <ImageButton
+                        android:id="@+id/btn1"
+                        android:background="@drawable/button2"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:onClick="btn1Clicked" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+                    <!--버튼-->
+                    <ImageButton
+                        android:id="@+id/btn2"
+                        android:background="@drawable/button2"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:onClick="btn2Clicked" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                <!--여백 레이아웃-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <!--소개 버튼 레이아웃2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                    <!--버튼-->
+                    <ImageButton
+                        android:id="@+id/btn3"
+                        android:background="@drawable/button2"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:onClick="btn3Clicked" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+                    <!--버튼-->
+                    <ImageButton
+                        android:id="@+id/btn4"
+                        android:background="@drawable/button2"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:onClick="btn4Clicked" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                <!--여백 레이아웃-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <!--소개 버튼 레이아웃3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                    <!--버튼-->
+                    <ImageButton
+                        android:id="@+id/btn5"
+                        android:background="@drawable/button2"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:onClick="btn5Clicked" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2" />
+                    <!--버튼-->
+                    <ImageButton
+                        android:id="@+id/btn6"
+                        android:background="@drawable/button2"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="46"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:onClick="btn6Clicked" />
+                    <!--여백-->
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3" />
+                </LinearLayout>
+                <!--여백 레이아웃-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.nseoul.MenuActivity">
+    <!--NSeoul 메뉴바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="7.4"
+        android:orientation="horizontal">
+        <!--NSeouL 로고-->
+        <Button
+            android:id="@+id/btnLogo"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="15"
+            android:background="@drawable/iconbtn1" />
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="85"/>
+    </LinearLayout>
+    <!--여백-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.6" />
+    <!--화면 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="91"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!--버튼 레이아웃-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="20"
+            android:layout_gravity="center">
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"/>
+            <!--서울 전경 버튼-->
+            <Button
+                android:id="@+id/btnMenu01"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="47"
+                android:background="@drawable/menubtn1"
+                android:onClick="btnMenu01Clicked" />
+            <!--지역별 메뉴 버튼-->
+            <Button
+                android:id="@+id/btnMenu05"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="47"
+                android:background="@drawable/menubtn5"
+                android:onClick="btnMenu05Clicked" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"/>
+        </LinearLayout>
+        <!--버튼 레이아웃-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="20"
+            android:layout_gravity="center">
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"/>
+            <!--미작동 버튼-->
+            <Button
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="47"
+                android:background="@drawable/menubutton3" />
+            <!--대표적 명소 버튼-->
+            <Button
+                android:id="@+id/btnMenu02"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="47"
+                android:background="@drawable/menubtn2"
+                android:onClick="btnMenu02Clicked" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"/>
+        </LinearLayout>
+        <!--버튼 레이아웃-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="20"
+            android:layout_gravity="center">
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"/>
+            <!--숨겨진 명소 버튼-->
+            <Button
+                android:id="@+id/btnMenu03"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="47"
+                android:background="@drawable/menubtn3"
+                android:onClick="btnMenu03Clicked" />
+            <!--미작동 버튼-->
+            <Button
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="47"
+                android:background="@drawable/menubutton6" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"/>
+        </LinearLayout>
+        <!--버튼 레이아웃-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="20"
+            android:layout_gravity="center">
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"/>
+            <!--N SeouL 소개 버튼-->
+            <Button
+                android:id="@+id/btnMenu06"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="47"
+                android:background="@drawable/menubtn6"
+                android:onClick="btnMenu06Clicked" />
+            <!--아름다운 고궁 버튼-->
+            <Button
+                android:id="@+id/btnMenu04"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="47"
+                android:background="@drawable/menubtn4"
+                android:onClick="btnMenu04Clicked" />
+            <!--여백-->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"/>
+        </LinearLayout>
+        <!--여백-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="20"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>
